@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-29T16:40:16" hostname="KARHU" time="0.038">
+<testsuite name="Tests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-30T03:41:59" hostname="KARHU" time="0.078">
   <properties/>
-  <testcase name="testMinus()" classname="Tests" time="0.026"/>
-  <testcase name="testPlus()" classname="Tests" time="0.002"/>
+  <testcase name="testAbs()" classname="Tests" time="0.051"/>
+  <testcase name="testPow()" classname="Tests" time="0.002"/>
+  <testcase name="testMinus()" classname="Tests" time="0.004"/>
+  <testcase name="testPlus()" classname="Tests" time="0.005"/>
   <testcase name="testDevide()" classname="Tests" time="0.002"/>
-  <testcase name="testMultiply()" classname="Tests" time="0.003"/>
+  <testcase name="testMultiply()" classname="Tests" time="0.002"/>
   <system-out><![CDATA[Tests started
+Test started
+Test complete
+Test started
+Test complete
 Test started
 Test complete
 Test started
