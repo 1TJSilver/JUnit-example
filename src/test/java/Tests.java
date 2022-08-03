@@ -1,7 +1,7 @@
 import org.hamcrest.MatcherAssert;
-import static org.hamcrest.Matchers.*;
-import static org.hamcrest.MatcherAssert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
 
 public class Tests {
     Calculator sut;
@@ -31,7 +31,7 @@ public class Tests {
         //act
         int result = sut.plus.apply(a, b);
         //assert
-        assertThat(expected, is(result));
+        assertEquals(expected, result);
     }
     @Test
     public void testMinus (){
@@ -40,7 +40,7 @@ public class Tests {
         //act
         int result = sut.minus.apply(a, b);
         //assert
-        assertThat(expected, is(result));
+        assertEquals(expected, result);
     }
     @Test
     public void testMultiply (){
@@ -49,7 +49,7 @@ public class Tests {
         //act
         int result = sut.multiply.apply(a, b);
         //assert
-        assertThat(expected, is(result));
+        assertEquals(expected, result);
     }
     @Test
     public void testDevide (){
@@ -58,7 +58,7 @@ public class Tests {
         //act
         int result = sut.devide.apply(a, b);
         //assert
-        assertThat(expected, is(result));
+        assertEquals(expected, result);
     }
     @Test
     public void testPow (){
@@ -67,7 +67,7 @@ public class Tests {
         //act
         int result = sut.pow.apply(a);
         //assert
-        assertThat(expected, is(result));
+        assertEquals(expected, result);
     }
     @Test
     public void testAbs(){
@@ -76,6 +76,6 @@ public class Tests {
         //act
         int result = sut.abs.apply(a);
         //assert
-        assertThat(expected, is(result));
+        assertEquals(expected, result);
     }
 }
